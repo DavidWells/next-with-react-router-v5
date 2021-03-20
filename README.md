@@ -1,5 +1,7 @@
 # Building a single page application with Next.js and React Router
 
+> See https://github.com/DavidWells/next-with-react-router-v6 for using with react router v6
+
 There are many reasons to use React Router inside a Next.js project! React Router is far more flexible than Next's router and makes it easy to share layout and state between among routes, even deeply nested ones. Doing this with Next.js requires consolidating all your shared logic in a custom `_app.tsx` component and using [complicated layout hacks](https://adamwathan.me/2019/10/17/persistent-layout-patterns-in-nextjs/).
 
 If you're building a single-page application and SEO isn't a concern, using React Router with Next.js is a powerful combination. Unfortunately there is no guidance for how to do this provided by th Next.js team. This repo demonstrates how this can be achieved.
